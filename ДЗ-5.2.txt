@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Contexts;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSLightReal
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string cupOne = "чай";
+            string cupTwo = "кофе";
+
+            string swapOne = cupTwo;
+            string swapTwo = cupOne;
+
+            Console.WriteLine($"Изначально {cupOne} и {cupTwo} а после замены {swapOne} и {swapTwo}.");
+            
+
+
+
+
+
+        }
+    }
+}

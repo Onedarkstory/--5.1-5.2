@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Contexts;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSLightReal
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Рыков";
+            string surname = "Максим";
+            string realName;
+            string realSurname;
+
+            Console.WriteLine($"Не правильный вывод - Ваше имя: {name} а Ваша фамилия:  {surname}.");
+
+            realName = surname;
+            realSurname = name;
+
+            Console.WriteLine($"Правильный вывод - Ваше имя: {realName} а Ваша фамилия: {realSurname}.");
+
+
+        }
+    }
+}
