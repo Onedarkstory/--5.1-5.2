@@ -14,16 +14,20 @@ namespace CSLightReal
             string name = "Рыков";
             string surname = "Максим";
             string realName;
-            string realSurname;
+            
 
-            Console.WriteLine($"Не правильный вывод - Ваше имя: {name} а Ваша фамилия:  {surname}.");
+            Console.WriteLine($" {name} и {surname}");
 
-            realName = surname;
-            realSurname = name;
+            realName = name;
+            name = surname;
+            surname = realName;
 
-            Console.WriteLine($"Правильный вывод - Ваше имя: {realName} а Ваша фамилия: {realSurname}.");
+            Console.WriteLine($" {name} и {surname}");
+
+           
 
 
         }
     }
+
 }
