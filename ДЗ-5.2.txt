@@ -11,19 +11,23 @@ namespace CSLightReal
     {
         static void Main(string[] args)
         {
-            string cupOne = "чай";
-            string cupTwo = "кофе";
+            string teaCup = "кофе";
 
-            string swapOne = cupTwo;
-            string swapTwo = cupOne;
+            string coffeeCup = "чай";
 
-            Console.WriteLine($"Изначально {cupOne} и {cupTwo} а после замены {swapOne} и {swapTwo}.");
+            Console.WriteLine($"{teaCup} - {coffeeCup}");
+
+            string swap;
+
+            swap = teaCup;
+            teaCup = coffeeCup;
+            coffeeCup = swap;
+
+            Console.WriteLine($"{teaCup} - {coffeeCup}");
+
             
-
-
-
-
 
         }
     }
+
 }
