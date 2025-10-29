@@ -1,9 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CSLightReal
 {
@@ -17,17 +13,19 @@ namespace CSLightReal
 
             Console.WriteLine($"{teaCup} - {coffeeCup}");
 
-            string swap;
+            string temp;
 
-            swap = teaCup;
+            temp = teaCup;
             teaCup = coffeeCup;
-            coffeeCup = swap;
+            coffeeCup = temp;
 
             Console.WriteLine($"{teaCup} - {coffeeCup}");
 
-            
+
 
         }
     }
 
 }
+
+
