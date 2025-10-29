@@ -1,9 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CSLightReal
 {
@@ -13,18 +9,16 @@ namespace CSLightReal
         {
             string name = "Рыков";
             string surname = "Максим";
-            string realName;
-            
+            string temp;
 
             Console.WriteLine($" {name} и {surname}");
-
-            realName = name;
+            temp = name;
             name = surname;
-            surname = realName;
+            surname = temp;
 
             Console.WriteLine($" {name} и {surname}");
 
-           
+
 
 
         }
